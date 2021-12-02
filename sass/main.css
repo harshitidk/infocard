@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:ital@1&display=swap");
+/*  
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+                                        */
+body {
+  color: white;
+  background-color: #090b1a;
+  font-family: 'Inter' , sans-serif;
+}
+
+.card {
+  background-color: #1b1938;
+  height: 400px;
+  width: 1000px;
+  margin: 110px auto;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-in1, .card-in2 {
+  border-radius: 10px;
+  height: 400px;
+  width: 500px;
+  background-position: fixed;
+  background-color: #1b1938;
+}
+
+.card-in2 {
+  background-color: #1b1938;
+  background-image: url(images/image-desk.jpg);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  background-blend-mode: hard-light;
+}
+
+.card-list {
+  width: 350px;
+}
+
+.card-list ul li {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.card-head {
+  height: 300px;
+  width: 400px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.heading span {
+  color: #a949e4;
+}
+
+.card-para {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.card-list1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  padding-top: 20px;
+}
+
+.card-list2 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.card-list3 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.75);
+}
+/*# sourceMappingURL=main.css.map */
