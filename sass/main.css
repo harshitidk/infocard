@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
                                         */
 body {
-  color: white;
+  color: #ffffff;
   background-color: #090b1a;
   font-family: 'Inter' , sans-serif;
 }
@@ -26,6 +26,7 @@ body {
   width: 500px;
   background-position: fixed;
   background-color: #1b1938;
+  position: relative;
 }
 
 .card-in2 {
@@ -50,6 +51,7 @@ body {
 
 .heading {
   font-size: 16px;
+  position: relative;
 }
 
 .card-para {
