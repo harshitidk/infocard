@@ -42,9 +42,39 @@ body
     background-blend-mode: hard-light;
 }
 
+.card-head
+{
+    height: 300px;
+    width: 400px;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.heading span
+{
+    color: $layer-color;
+}
+
+.heading
+{
+    font-size: 16px;
+}
+
+.card-para
+{
+    color: $head-color;
+    font-family: 'Inter';
+    font-size: 13.5px;
+    font-weight: lighter;
+    line-height: 1.5;
+    word-spacing: 0.5px ;
+}
+
 .card-list
 {
     width: 350px;
+    height: 200px;
+    margin-top: 50px;
 }
 
 .card-list ul li
@@ -53,49 +83,27 @@ body
     list-style-type: none;
 }
 
-.card-head
-{
-    height: 300px;
-    width: 400px;
-    margin-left: 60px;
-    margin-top: 60px;
-}
-
-.heading span
-{
-    color: $layer-color;
-}
-
-.card-para
-{
-    color: $head-color;
-    font-family: 'Inter';
-    font-size: 14px;
-    font-weight: lighter;
-    line-height: 1.5;
-}
-
-.card-list1
+.card-list ul
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    padding-top: 20px;
+    padding-right: 35px;
 }
 
-.card-list2
+.score-1
 {
-    font-weight: bolder;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: "Inter";
 }
 
-.card-list3
+.score-2
 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 10px;
     font-weight: lighter;
-    letter-spacing: 2px;
-    color: $head-color
+    font-size: 10px;
+    color: $head-color;
+    letter-spacing: 1.5px;
 }
+
