@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/harshitidk/infocard/issues"
   },
-  "homepage": "https://github.com/harshitidk/infocard#readme",
+  "homepage": "https://github.com/harshitidk/infocard",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
