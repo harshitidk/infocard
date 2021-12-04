@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:ital@1&display=swap");
+/*  
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+                                        */
+body {
+  color: #ffffff;
+  background-color: #090b1a;
+  font-family: 'Inter' , sans-serif;
+}
+
+.card {
+  background-color: #1b1938;
+  height: 400px;
+  width: 1000px;
+  margin: 110px auto;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-in1, .card-in2 {
+  border-radius: 10px;
+  height: 400px;
+  width: 500px;
+  background-position: fixed;
+  background-color: #1b1938;
+  position: relative;
+}
+
+.card-in2 {
+  background-color: #1b1938;
+  background-image: url(images/image-desk.jpg);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  background-blend-mode: hard-light;
+}
+
+.card-head {
+  height: 300px;
+  width: 400px;
+  padding-left: 70px;
+  padding-top: 40px;
+}
+
+.heading span {
+  color: #a949e4;
+}
+
+.heading {
+  font-size: 16px;
+  position: relative;
+}
+
+.card-para {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Inter';
+  font-size: 13.5px;
+  font-weight: lighter;
+  line-height: 1.5;
+  word-spacing: 0.5px;
+}
+
+.card-list {
+  width: 350px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.card-list ul li {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.card-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  padding-right: 35px;
+}
+
+.score-1 {
+  font-weight: bold;
+  font-size: 21px;
+  font-family: "Inter";
+}
+
+.score-2 {
+  font-weight: lighter;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 1.5px;
+}
+/*# sourceMappingURL=main.css.map */
