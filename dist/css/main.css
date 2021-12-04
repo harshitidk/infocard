@@ -31,7 +31,7 @@ body {
 
 .card-in2 {
   background-color: #1b1938;
-  background-image: url(../images/image-desk.jpg);
+  background-image: url(./images/image-desk.jpg);
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;
